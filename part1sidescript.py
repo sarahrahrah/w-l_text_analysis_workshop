@@ -87,6 +87,22 @@ vegetables.sort()
 
 print (vegetables)
 
+
+# if statements
+x = 2
+if 2 * x == 5:
+    print ("equals five!")
+else:
+    print ("does not!")
+
+for vegetable in vegetables:
+    if len(vegetable) > 6:
+        print ("long word")
+    else:
+        print ("not that long of a word")
+
+
+
 # list indexing
 
 cities = ['Tokyo','Moscow','Chicago','Madrid']
