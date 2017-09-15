@@ -14,7 +14,7 @@ story = open( 'story.txt', mode='r', encoding='utf8').read()
 listwords_story = story.split()
 
 
-# 3) Initialize a separate list.
+# 3) Initialize a separate list for the wordfrequencies.
 
 wordfreq = []
 
