@@ -1,6 +1,8 @@
 #follow along sidescript for important concepts to show class
 
-# create a varible
+# 1) VARIABLES
+#-------------------------------------
+#create a varible
 
 breakfastfood = "omelettes"
 
@@ -8,10 +10,14 @@ breakfastfood = "omelettes"
 
 number = 5
 
-# put these variables into a list
+# 2) LISTS
+#--------------------------------------
+#put these variables into a list
 
 anewlist = [breakfastfood, number]
 
+# 3) BUILT-IN FUNCTIONS
+#-------------------------------------
 # various python built-in functions
 
 #print ()
@@ -35,8 +41,8 @@ print (type(anewlist))
 print (type(number))
 print (type(breakfastfood))
 
-
-# for loop
+# 4) FOR LOOPS
+#---------------------------------------
 
 catbreeds = ["persian", "tabby", "sphinx", "domestic shorthair"]
 
@@ -50,8 +56,8 @@ for breed in range(0, len(catbreeds)):
     print (catbreeds[breed])
 
 
-# writing your own function
-
+# 5) WRITING FUNCTIONS
+#________________________________________
 def exclamationcats(catlist):
     catstring = ''
     for breed in catlist:
@@ -63,8 +69,8 @@ result = exclamationcats(catbreeds)
 
 print (result)
 
-
-#  Built-in list functions
+# 6) BUILT-IN FUNCTIONS FOR LISTS
+#-----------------------------------------
 
 #count()
 #append()
@@ -87,8 +93,9 @@ vegetables.sort()
 
 print (vegetables)
 
+# 7) IF STATEMENTS
+#------------------------------------------
 
-# if statements
 x = 2
 if 2 * x == 5:
     print ("equals five!")
@@ -103,9 +110,10 @@ for vegetable in vegetables:
 
 
 
-# list indexing
+# 8) LIST INDICIES
+#___________________________________________
 
-cities = ['Tokyo','Moscow','Chicago','Madrid']
+cities = ['Tokyo','Moscow','Chicago','Barcelona']
 
 print (cities[0])
 print (cities[1:4])
@@ -114,9 +122,9 @@ print (cities[-1])
 #dictionaries
 
 countries = ['Japan','Russia','USA','Spain']
-countriesandcapitals = dict(zip(countries, cities))
+countriesandcities = dict(zip(countries, cities))
 
-print (countriesandcapitals)
+print (countriesandcities)
 
 
 
