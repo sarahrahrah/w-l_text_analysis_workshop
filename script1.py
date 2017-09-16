@@ -41,7 +41,13 @@ print (type(anewlist))
 print (type(number))
 print (type(breakfastfood))
 
-# 4) FOR LOOPS
+
+# 4) OPERATIONS
+#______________________________________
+
+
+
+# 5) FOR LOOPS
 #---------------------------------------
 
 catbreeds = ["persian", "tabby", "sphinx", "domestic shorthair"]
@@ -56,20 +62,18 @@ for breed in range(0, len(catbreeds)):
     print (catbreeds[breed])
 
 
-# 5) WRITING FUNCTIONS
+# 6) WRITING FUNCTIONS
 #________________________________________
-def exclamationcats(catlist):
-    catstring = ''
-    for breed in catlist:
-        catstring = catstring + breed + "!!! "
-    return catstring
+def exclamation(word):
+    wordwithexclationmark = word + "!!!"
+    return wordwithexclamationmark
 
 
-result = exclamationcats(catbreeds)
+result = exclamation("hello")
 
 print (result)
 
-# 6) BUILT-IN FUNCTIONS FOR LISTS
+# 7) BUILT-IN FUNCTIONS FOR LISTS
 #-----------------------------------------
 
 #count()
@@ -93,7 +97,7 @@ vegetables.sort()
 
 print (vegetables)
 
-# 7) IF STATEMENTS
+# 8) IF STATEMENTS
 #------------------------------------------
 
 x = 2
@@ -110,7 +114,7 @@ for vegetable in vegetables:
 
 
 
-# 8) LIST INDICIES
+# 9) LIST INDICIES
 #___________________________________________
 
 cities = ['Tokyo','Moscow','Chicago','Barcelona']
@@ -119,7 +123,8 @@ print (cities[0])
 print (cities[1:4])
 print (cities[-1])
 
-#dictionaries
+# 10) DICTIONARIES
+#___________________________________________
 
 countries = ['Japan','Russia','USA','Spain']
 countriesandcities = dict(zip(countries, cities))
