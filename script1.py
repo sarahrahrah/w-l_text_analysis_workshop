@@ -46,6 +46,16 @@ print (type(breakfastfood))
 #______________________________________
 
 
+# + addition and concatenation
+# - subtraction
+# * multiplication
+# / divisions
+# ** exponent
+# % modulo (remainder in division)
+
+print (number * 5)
+print (breakfastfood * 5)
+
 
 # 5) FOR LOOPS
 #---------------------------------------
@@ -65,7 +75,7 @@ for breed in range(0, len(catbreeds)):
 # 6) WRITING FUNCTIONS
 #________________________________________
 def exclamation(word):
-    wordwithexclationmark = word + "!!!"
+    wordwithexclamationmark = word + "!!!"
     return wordwithexclamationmark
 
 
@@ -81,7 +91,7 @@ print (result)
 #remove()
 #sort()
 
-vegetables = ['broccoli', 'beets', 'cabbage', 'zucchini', 'carrots','beets']
+vegetables = ['broccoli', 'beets', 'cabbage', 'zucchini','peas', 'carrots','beets']
 
 print (vegetables.count('beets'))
 
