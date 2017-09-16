@@ -1,4 +1,4 @@
-#follow along sidescript for important concepts to show class
+#Script to illustrate important concepts in python programming
 
 # 1) VARIABLES
 #-------------------------------------
